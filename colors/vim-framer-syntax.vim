@@ -94,6 +94,20 @@ hi jsTry guifg=#00BBFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsThis guifg=#FB5599 ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsUndefined guifg=#FF8867 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsEnvComment guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+" Add correct jsx syntax highlight
+hi jsxElement guifg=#99999 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsxTag guifg=#999999 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsxTagName guifg=#FFCC66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsxComponentName guifg=#FFCC66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsxAttrib guifg=#AADDFF ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsxEqual guifg=#999999 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsxString guifg=#BB89FF ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+" hi jsxCloseTag guifg=#FFCC66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+" hi jsxCloseString guifg=#FFCC66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsxDot guifg=#EEEEEE ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsxNamespace guifg=#EEEEEE ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsxPunct guifg=#999999 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+"
 hi jsonBoolean guifg=#CE9178 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsonBraces guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsonFold guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -278,7 +292,7 @@ hi terraValueFunction guifg=#FFCC66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE
 hi terraValueBool guifg=#FF8867 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CtrlPMatch guifg=#23CCDD ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeCWD guifg=#00BBFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NERDTreeDir guifg=#23CCDD ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NERDTreeDir guifg=#FFCC66 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeDirSlash guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeFile guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeOpenable guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
